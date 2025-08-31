@@ -1,5 +1,3 @@
-
-
 *{
     box-sizing:border-box;
 }
@@ -11,7 +9,7 @@ body{
     margin:0;
     font-family:Nunito,sans-serif;
     background-color:var(--background-color);
-    color:var(--text-color)
+    color:var(--text-color);
 }
 
 body.dark{
@@ -23,12 +21,10 @@ body.dark{
 main{
     padding:24px;
 }
-
-a {
+a{
     text-decoration-line:none;
     color:inherit;
 }
-
 .header-container{
     box-shadow:0 2px 4px 0px rgba(0,0,0,0.1);
     padding-inline:24px;
@@ -42,16 +38,13 @@ a {
     max-width:1200px;
     margin-inline:auto;
 }
+
 .title{
     font-weight:800;
-
 }
-
 .theme-changer{
     cursor:pointer;
-
 }
-
 .countries-container{
     max-width:1200px;
     margin-top:16px;
@@ -61,7 +54,6 @@ a {
     margin-inline:auto;
     justify-content:space-between;
 }
-
 .country-card{
     display:inline-block;
     width:250px;
@@ -76,43 +68,25 @@ a {
 .country-card:hover{
     transform:scale(1.03);
     box-shadow:0 0 16px 0px rgba(0,0,0,0.2);
-
 }
 
 .card-title{
     font-size:24px;
     margin-block:16px;
-
 }
-
 .card-text{
     padding-inline:16px;
-
 }
-
 .card-text p{
     margin-block:8px;
 }
-
 .country-card img{
     width:100%;
 }
-
-.search-filter-container{
-    max-width:1200px;
-    margin-inline:auto;
-    margin-top:16px;
-    margin-bottom:48px;
-    display:flex;
-    justify-content:space-between;
-    gap:24px;
-
-}
-
 .search-container{
     box-shadow:0 0 8px 0px rgba(0,0,0,0.15);
     max-width:350px;
-    width: 100%;
+    width:100%;
     border-radius:4px;
     padding-left:24px;
     color:#999;
@@ -129,7 +103,6 @@ a {
     background-color:inherit;
     color:inherit;
 }
-
 .search-container input::placeholder{
     color:#999;
 }
@@ -144,7 +117,6 @@ a {
     background-color:var(--elements-color);
     color:var(--text-color);
 }
-
 @media(max-width:768px){
     .countries-container{
         justify-content:center;
@@ -152,7 +124,7 @@ a {
     .title{
         font-size:16px;
     }
-    .header-content p{
+    .header-content p {
         font-size:12px;
     }
     .search-filter-container{

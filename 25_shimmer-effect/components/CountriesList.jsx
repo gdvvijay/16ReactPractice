@@ -1,9 +1,12 @@
 import CountriesData from '../countriesData'
+import CountriesListShimmer from './CountriesListShimmer'
 import CountryCard from './CountryCard'
 
 export default function CountriesList({query}){
 
-
+    if(!CountriesData.length){
+        return <CountriesListShimmer/>
+    }
     return(
         <>
             <div className="countries-container">
